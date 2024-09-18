@@ -1,0 +1,30 @@
+<h4 class="text-center">{{'profile.welcome_title' | translate: {username: username} }}</h4>
+<div class="row w-100">
+
+    <div class="col-lg-9 d-flex justify-content-center m-auto">
+        <div class="card mb-4 border-0 shadow">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" fill="currentColor"
+                        class="bi bi-person-circle me-2" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 9.5a5.5 5.5 0 0 1-4.473-2.286c.025-1.5 3.5-2.5 4.473-2.5s4.448 1 4.473 2.5A5.5 5.5 0 0 1 8 12.5z" />
+                    </svg>
+                    <h6 class="card-title fw-bold">{{'profile.details' | translate}}</h6>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 border-end">
+                        <p class="card-text">{{'profile.name' | translate}}</p>
+                        <p class="card-text">{{'profile.date_of_birth' | translate}}</p>
+                        <p class="card-text">{{'profile.address' | translate}}</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="card-text">{{'profile.gender' | translate}}</p>
+                        <p class="card-text">{{'profile.email' | translate}}</p>
+                        <p class="card-text">{{'profile.phone' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

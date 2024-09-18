@@ -1,0 +1,23 @@
+{
+  "header": {
+    "profile": "प्रोफ़ाइल",
+    "blog": "ब्लॉग",
+    "certificate": "प्रमाणपत्र",
+    "language": "भाषा"
+  },
+  "profile": {
+    "welcome_title": "प्रोफ़ाइल पृष्ठ पर आपका स्वागत है, {{username}}",
+    "details": "प्रोफ़ाइल विवरण",
+    "name": "पूरा नाम : जॉन डो",
+    "date_of_birth": "जन्म तिथि : 1990-01-01",
+    "address": "पता: 123 मुख्य सड़क, शहर, देश",
+    "gender": "लिंग : पुरुष",
+    "email": "ईमेल : john.doe@example.com",
+    "phone": "फ़ोन नंबर : +1 123-456-7890"
+  },
+  "blog": {
+    "welcome_title": "ब्लॉग पृष्ठ पर आपका स्वागत है",
+    "blog_count": "आपके पास {{count}} नए ब्लॉग हैं।"
+  },
+  "certificate": { "welcome_title": "प्रमाणपत्र पृष्ठ पर आपका स्वागत है।" }
+}

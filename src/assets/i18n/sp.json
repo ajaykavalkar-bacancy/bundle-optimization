@@ -1,0 +1,13 @@
+{
+  "header": {
+    "profile": "Perfil",
+    "blog": "Blog",
+    "certificate": "Certificado",
+    "language": "Idioma"
+  },
+  "profile": { "welcome_title": "Bienvenido a la página de perfil." },
+  "blog": {
+    "welcome_title": "Bienvenido a la página de blog."
+  },
+  "certificate": { "welcome_title": "Bienvenido a la página de certificado." }
+}

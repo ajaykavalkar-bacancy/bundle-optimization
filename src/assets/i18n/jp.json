@@ -1,0 +1,13 @@
+{
+    "header": {
+      "profile": "プロフィール",
+      "blog": "ブログ",
+      "certificate": "証明書",
+      "language": "言語"
+    },
+    "profile": { "welcome_title": "プロフィールページへようこそ。" },
+    "blog": {
+      "welcome_title": "ブログページへようこそ。"
+    },
+    "certificate": { "welcome_title": "証明書ページへようこそ。" }
+  }

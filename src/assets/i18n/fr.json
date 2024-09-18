@@ -1,0 +1,23 @@
+{
+  "header": {
+    "profile": "Profil",
+    "blog": "Blog",
+    "certificate": "Certificat",
+    "language": "Langue"
+  },
+  "profile": {
+    "welcome_title": "Bienvenue sur la page de profil {{username}}.",
+    "details": "Détails du profil",
+    "name": "Nom complet : John Doe",
+    "date_of_birth": "Date de naissance : 1990-01-01",
+    "address": "Adresse : 123, rue de la ville, 12345, Pays",
+    "gender": "Genre : Masculin",
+    "email": "Email : john.doe@example.com",
+    "phone": "Numéro de téléphone : +1 123-456-7890"
+  },
+  "blog": {
+    "welcome_title": "Bienvenue sur la page de blog",
+    "blog_count": "Vous avez {{count}} nouveaux blogs."
+  },
+  "certificate": { "welcome_title": "Bienvenue sur la page de certificat." }
+}
