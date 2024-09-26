@@ -10,5 +10,5 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 })
 export class ProfileComponent {
   public translate = inject(TranslateService);
-  username = 'Ajay';
+  username = 'Ketan';
 }
