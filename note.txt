@@ -1,0 +1,23 @@
+## reference https://www.linkedin.com/pulse/deploy-angular-app-github-pages-cli-dilakshan-antony-thevathas-octlc#:~:text=Deploy%20the%20angular%20app%20on%20GitHub&text=Create%20the%20gh%2Dpages%20git,pages%20to%20the%20remote%20repository.
+
+ ng deploy  --repo=https://github.com/ajaykavalkar-bacancy/bundle-optimization.git --name="ajaykavalkar-bacancy"
+
+
+## reference video ::: https://www.youtube.com/watch?v=_zcwJ_2eL6Y
+ Limitations of GitHub Pages
+• GitHub Pages is indeed a fantastic free service for hosting static websites, but it does come with some limitations to
+keep in mind.
+• Firstly, the static content size is limited to 1GB. This means you won't be able to upload large media files like videos
+or extensive datasets directly to GitHub Pages. Additionally, there's a monthly bandwidth limit of 100GB. This
+limit is quite generous for most small to medium-sized websites, but it's something to be aware of if your site
+experiences high traffic.
+• When deploying your website on GitHub Pages, keep in mind that the deployment process has a time limit of
+10 minutes. If it takes longer than that, the deployment will timeout and may fail. Additionally, GitHub Pages
+have a soft limit of 10 builds per hour, so you should avoid triggering deployments too frequently to stay within
+this limit.
+
+npm install  angular-cli-ghpages
+
+ng build --output-path=dist --base-href="/your_repository_name/"
+
+ngh --dist=dist/browser  (index.html path)
