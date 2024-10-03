@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +20,8 @@ export class AppComponent {
   public translate = inject(TranslateService)
   constructor() {
     this.translate.setDefaultLang('en');
+    console.log('Environment:', environment.api_url, environment.production);
+    
   }
   // change language
   changeLang(language: string) {
